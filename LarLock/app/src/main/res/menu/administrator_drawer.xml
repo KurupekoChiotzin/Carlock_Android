@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/action_home"
+            android:title="首頁"
+            android:icon="@drawable/ic_home"/>-->
+
+        <item
+            android:id="@+id/action_fun"
+            android:icon="@drawable/ic_function"
+            android:title="功能頁" />
+
+        <item
+            android:id="@+id/action_openbox"
+            android:icon="@drawable/ic_function"
+            android:title="開車廂" />
+        <item
+            android:id="@+id/action_description"
+            android:title="使用說明"
+            android:icon="@drawable/ic_help"/>
+        <item
+            android:id="@+id/action_about"
+            android:title="關於我們"
+            android:icon="@drawable/ic_about"/>
+        <item
+            android:id="@+id/action_logout"
+            android:title="登出"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+
+</menu>

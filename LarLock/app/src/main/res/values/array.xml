@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="user_array">
+        <item>Administrator</item>
+        <item>Guest</item>
+    </array>
+</resources>

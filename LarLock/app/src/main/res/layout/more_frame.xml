@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/chbtnamebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/button_selecotor"
+        android:text="更換藍牙名稱"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/switch2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:hint="自動上鎖及解鎖                                                                     "
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/verifynumbtn"
+        android:text="更換訪客驗證碼"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_selecotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/switch2"
+        android:layout_marginTop="20dp"/>
+
+</android.support.constraint.ConstraintLayout>

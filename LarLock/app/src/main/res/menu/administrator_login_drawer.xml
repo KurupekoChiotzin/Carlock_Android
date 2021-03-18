@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/guard"
+        android:title="Communicate"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/guard_qradd"
+                android:icon="@drawable/ic_about"
+                android:title="加入監護" />
+            <item
+                android:id="@+id/guard_view"
+                android:icon="@drawable/ic_about"
+                android:title="查看監護選單" />
+            <item
+                android:id="@+id/guard_cpw"
+                android:icon="@drawable/ic_about"
+                android:title="更改密碼" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/beguard"
+        android:title="Communicate"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/beguard_qr"
+                android:icon="@drawable/ic_about"
+                android:title="綁定監護人" />
+            <item
+                android:id="@+id/beguard_cpw"
+                android:icon="@drawable/ic_about"
+                android:title="更改密碼" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_about"
+            android:title="登入" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_about"
+            android:title="登出"
+            android:visible="true" />
+    </group>
+
+
+</menu>
